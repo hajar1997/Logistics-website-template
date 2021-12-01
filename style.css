@@ -1,0 +1,512 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.offset::before {
+    display: block!important;
+    content: ""!important;
+    height: 0%!important;
+}
+.carousel-item {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)); */
+    height: 100vh !important;
+    min-height: 300px;
+}
+
+/* NAVBAR  */
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-item:hover {
+    background-color: #fff;
+    transition: all .5s;
+}
+
+.nav-item a:hover {
+    color: #000 !important;
+    transition: all .8s;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.change-color-nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s;
+}
+
+button.navbar-toggler:focus {
+    outline: none !important;
+}
+
+/* NAVBAR END */
+
+/* CAROUSEL SECTION */
+
+.carousel-caption {
+    bottom: 150px;
+}
+
+.carousel-caption {
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+}
+
+
+.carousel-caption h1 {
+    font-weight: 900;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.carousel-caption p {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.carousel-caption button {
+    border-radius: 20px;
+    border-color: transparent !important;
+    background-color: white;
+    outline: none !important;
+    color: #000;
+    font-size: 15px;
+    padding: 7px 13px;
+    font-weight: 500;
+}
+
+.carousel-caption button:focus {
+    box-shadow: none;
+}
+
+.carousel-caption button:hover {
+    background-color: #db5757;
+    color: #fff;
+}
+
+.item-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/truck.jpg');
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/truck-2.jpg');
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/truck-3.jpg');
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-1 .carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* CAROUSEL SECTION END */
+
+/* SERVICE SECTION */
+.our-services {
+    background-color: #fff;
+}
+
+.services-heading {
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 44px;
+    font-weight: 700;
+    opacity: 0.8;
+    position: relative;
+}
+
+.services-heading::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    top: 0;
+    display: block;
+    border-top: 6px solid #db5757;
+}
+
+.our-services h5 {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.our-services p {
+    font-size: 15px;
+}
+
+.icon i {
+    font-size: 30px;
+    color: #db5757;
+}
+
+/* SERVICE SECTION END */
+
+/* COUNTER SECTION WITH BACKGROUND VIDEO */
+
+.video-section {
+    position: relative;
+    height: 100vh;
+    min-height: 25rem;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.video-section::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.counter-content {
+    position: absolute;
+    z-index: 999;
+    font-size: 50px;
+    color: #fff;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+.counter-area i {
+    color: rgb(212, 133, 28);
+}
+
+.counter-area p {
+    font-size: 20px;
+}
+
+
+/* COUNTER SECTION END */
+
+/* ABOUT SECTION */
+
+.about-heading {
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 44px;
+    font-weight: 700;
+    color: #000;
+    opacity: 0.7;
+    position: relative;
+}
+
+.about-heading::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    top: 0;
+    display: block;
+    border-top: 6px solid #db5757;
+}
+
+.about-h2 {
+    font-size: 29px;
+    font-weight: 300;
+}
+
+
+/* ABOUT SECTION END */
+/* COMPANIES */
+.companies{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.companies-heading {
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 35px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.companies img {
+    width: 100px;
+    filter: opacity(0.6);
+}
+
+.companies img:hover {
+    filter: opacity(1);
+}
+
+/* COMPANIES END */
+/* WHO WE ARE  */
+.who-we-are {
+    background-color: rgba(102, 96, 96, 0.9);
+}
+
+.wwa-heading {
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 44px;
+    font-weight: 700;
+    opacity: 0.8;
+    position: relative;
+}
+
+.wwa-heading::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    top: 0;
+    display: block;
+    border-top: 6px solid #db5757;
+}
+
+.wrapper-text p {
+    color: #3e3a3a;
+    font-size: 14px !important;
+}
+
+/* WHO-WE-ARE END */
+
+
+/* CONTACT START */
+.contact {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.contact-heading {
+    position: relative;
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 44px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.contact-heading::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    top: 0;
+    display: block;
+    border-top: 6px solid #db5757;
+}
+
+form {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('./images/truck-gallery.jpg');
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+input[type=text],input[type=email],textarea:focus {
+    outline: none;
+    box-shadow: none!important;
+    padding: 25px;
+    border-radius: 0;
+}
+.btn-submit{
+    background-color: rgb(51, 173, 255);
+    color: #fff;
+    padding: 5px 25px;
+}
+/* CONTACT END */
+
+/* FOOTER START */
+footer{
+    background:rgba(0, 0, 0, 0.7);
+    max-width: 100%!important;
+    color: white;
+}
+
+footer a{
+    text-decoration: none!important;
+    color: white!important;
+}
+.copyright{
+    background-color: cadetblue;
+    width: 100%;
+    height: 50px;
+    color: black;
+}
+/* FOOTER END */
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width:768px) {
+    .navbar-collapse {
+        background-color: #0a0c0e
+    }
+
+    .carousel-caption h1 {
+        font-size: 21px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 78px;
+    }
+
+    .services-heading {
+        font-size: 32px;
+    }
+
+    .counter-content {
+        top: 50px;
+    }
+
+    .counter-content h5 {
+        font-size: 15px;
+    }
+
+    .counter-content h1 {
+        font-size: 20px;
+    }
+
+    .counter-content i {
+        font-size: 35px;
+    }
+
+    .about-caption div {
+        flex-direction: column-reverse !important;
+    }
+
+    .about-caption {
+        padding: 37px;
+    }
+
+    .company-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 411px) {
+    .carousel-caption {
+        bottom: 150px;
+    }
+
+    .counter-area {
+        margin-top: 0px !important;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 568px) {
+    .video-section {
+        height: 132vh;
+    }
+
+    video {
+        height: 132vh;
+    }
+
+    .video-section::after {
+        height: 132vh;
+    }
+}
+
+@media (min-width:768px) {
+    .nav-item {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-collapse {
+        background-color: transparent;
+    }
+}
+
+
+/* MEDIA QUERIES FOR ALL PHONES */
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+    .video-section {
+        height: 150vh !important;
+    }
+
+    video {
+        height: 150vh !important;
+    }
+
+    .video-section::after {
+        height: 150vh !important;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) {
+    /* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) {
+    .video-section {
+        height: 118vh !important;
+    }
+
+    video {
+        height: 118vh !important;
+    }
+
+    .video-section::after {
+        height: 118vh !important;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .counter-content {
+        top: 180px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .counter-area {
+        margin-top: 134px !important;
+    }
+}

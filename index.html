@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="./images/logo.png" alt="logo" width="70"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile"
+                aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMobile">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a href="#Home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Service" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#About-us" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel image and description -->
+    <div id="Home" class="carousel carousel-1 slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item item-1 active animated fadeInDown">
+                <div class="carousel-caption  d-md-block ">
+                    <h1 class="text-white">UNBEATABLE TRUCKING <br> AND TRANSPORT SERVICES</h1>
+                    <p class="text-white mt-3">Starting from loading to unloading and maintaining <br> the highest
+                        standards in terms of safety while <br> in transit, we take nothing to chance.</p>
+                    <button type="button" class="btn">View Details</button>
+                </div>
+            </div>
+            <div class="carousel-item item-2 animated fadeInDown">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="text-white">CRANE TO TRAIN, <br> WE DO EVERYTHING</h1>
+                    <p class="text-white mt-3">Starting from loading to unloading and maintaining <br> the highest
+                        standards in terms of safety while <br> in transit, we take nothing to chance.</p>
+                    <button type="button" class="btn">View Details</button>
+                </div>
+            </div>
+            <div class="carousel-item item-3 animated fadeInDown">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="text-white">GROUND OR AIR, <br> THERE IS NO STOPPING FOR US</h1>
+                    <p class="text-white mt-3">Starting from loading to unloading and maintaining <br> the highest
+                        standards in terms of safety while <br> in transit, we take nothing to chance.</p>
+                    <button type="button" class="btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES -->
+    <div id="Service" class="our-services text-dark mb-5 offset">
+        <div class="container">
+            <h2 class="mt-5 mb-5 services-heading">Our Services</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img style="width: 70%;" src="./images/delivery.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 p-3 d-flex">
+                            <div class="icon mr-3">
+                                <i class="fab fa-dropbox"></i>
+                            </div>
+                            <div class="service-items">
+                                <h5>Packaging and Storage</h5>
+                                <p>We can package and store your things</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 p-3 d-flex">
+                            <div class="icon mr-3">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="service-items">
+                                <h5>DOOR-TO-DOOR DELIVERY</h5>
+                                <p>Do you need something delivered? We are what you are looking for! </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 p-3 d-flex">
+                            <div class="icon mr-3">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="service-items">
+                                <h5>Cargo</h5>
+                                <p>Let us transport your things from point A to point B fast and securely</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col col-sm-12 p-3 d-flex">
+                            <div class="icon mr-3">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="service-items">
+                                <h5>Worldwide Transport </h5>
+                                <p>We can transport your things anywhere in the world</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COUNTER WITH BACKGROUND VIDEO -->
+    <div class="video-section">
+        <video playsinline autoplay muted loop>
+            <source src="./videos/truck-video-1.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="counter-content">
+                <h5>WE SPECIALISE IN THE TRANSPORTATION</h5>
+                <h1>Together, we have your logistical <br> challenges covered.</h1>
+                <div class="counter-area">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg">
+                            <i class="fas fa-truck"></i>
+                            <h3 class="counter" data-count="1656">0</h3>
+                            <p>Completed Delivery</p>
+                        </div>
+                        <div class="col-sm-6 col-lg">
+                            <i class="fas fa-users"></i>
+                            <h3 class="counter" data-count="1250">0</h3>
+                            <p>Satisfied Clients</p>
+                        </div>
+                        <div class="col-sm-6 col-lg">
+                            <i class="fas fa-award"></i>
+                            <h3 class="counter" data-count="30">0</h3>
+                            <p>Awards Winner</p>
+                        </div>
+                        <div class="col-sm-6 col-lg">
+                            <i class="fas fa-user"></i>
+                            <h3 class="counter" data-count="150">0</h3>
+                            <p>Team Members</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT US  -->
+    <div id="About-us" class="about-content offset">
+        <div class="container">
+            <div class="about-caption">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mt-5">
+                        <h2 class="about-heading">About Us</h2>
+                        <h2 class="about-h2">We Provide a Reliable Services</h2>
+                        <p>We take pride in being regarded as one of the most reliable and affordable logistic and
+                            warehousing service providers in the country. As a third party logistic service provider, we
+                            excel b at a range of logistic services, which includes trucking services, warehousing
+                            services, logistic services, and a range of other ancillary services. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="./images/worker.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT US END -->
+    <!-- COMPANIES -->
+    <div class="companies">
+        <h3 class="companies-heading text-center">Our clients</h3>
+        <div class="container">
+            <div class="company-logos  d-flex justify-content-center">
+                <img src="./images/company-1.svg">
+                <img src="./images/company-2.jpg">
+                <img src="./images/company-3.jpg">
+                <img src="./images/company-4.jpg">
+                <img src="./images/company-5.png">
+                <img src="./images/company-6.png">
+            </div>
+        </div>
+    </div>
+    <!-- COMPANIES   END -->
+    <!-- WHO WE ARE -->
+    <div class="who-we-are mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                   <div id="carouselId" class="carousel slide carousel-fade" data-ride="carousel">
+                       <div class="carousel-inner" role="listbox">
+                           <div class="carousel-item animated fadeInDown active">
+                               <img src="./images/truck-gallery-2.jpg" alt="First slide">
+                           </div>
+                           <div class="carousel-item animated fadeInDown">
+                            <img src="./images/truck-gallery-3.jpg" alt="First slide">
+                           </div>
+                           <div class="carousel-item animated fadeInDown">
+                            <img src="./images/truck-gallery-4.jpg" alt="First slide">
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-6 mt-5 wrapper-text">
+                    <h1 class="wwa-heading text-white">Who we are</h1>
+                    <p class="text-white">We have years of experience in the business of logistics, warehousing, distribution, trucking
+                        and
+                        supply chain management services, and aim to provide our clients with convenience,
+                        reliability and
+                        affordability through our premium logistic services.</p>
+                    <p class="text-white">
+                        Our experience in all the fields we serve in, and the range of services we provide, makes us
+                        one of the most comprehensive logistic service providers in the nation. And, with the help
+                        of continuous support and trust of our clients, we aim to stay at the top of the game, and
+                        humbly so. Our sophisticated systems, neatly designed logistic process, state of the art
+                        logistic tools and equipment, most advanced carriers, custom tailored services, and
+                        dedication to keep the costs low for end users, help us to provide logistic solution that
+                        aligns well with our clients’ requirements. We welcome you to our site, and request you to
+                        consult with our logistic experts for your logistic needs, and rest assured of getting done.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- WHO WE ARE END  -->
+
+    <!-- CONTACT -->
+    <div id="Contact" class="contact offset">
+        <div class="container">
+            <h3 class="contact-heading">CONTACT US</h3>
+             <div class="row align-items-center">
+                 <div class="col-md-6">
+                    <img class="img-fluid" src="./images/customer-care.png" alt="">
+                 </div>
+                 <div class="col-md-6 mt-5">
+                    <form action="POST">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6 mt-4">
+                                <input type="text" class="form-control" required placeholder="First name">
+                            </div>
+                            <div class="col-md-12 col-lg-6 mt-4">
+                                <input type="text" class="form-control" required placeholder="Last name">
+                            </div>
+                            <div class="col-md-12 col-lg-6 mt-4">
+                                <input type="email" class="form-control" required placeholder="Email adress">
+                            </div>
+                            <div class="col-md-12 col-lg-6 mt-4">
+                                <input type="text" class="form-control" required placeholder="Phone number">
+                            </div>
+                            <div class="col mt-4">
+                                <input type="text" class="form-control"  placeholder="Subject">
+                            </div>
+                            <div class="col-12 mt-4">
+                               <textarea class="w-100 p-3" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col text-center mt-4">
+                               <button type="submit"  class="btn btn-submit">Submit</button>
+                            </div>
+                        </div>
+                       </form>
+                 </div>
+             </div>
+        </div>
+    </div>
+    <!-- CONTACT END -->
+<!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Us</h5>
+          <li class="list-unstyled">Address: 27 Division St, New York, USA</li>
+          <li class="list-unstyled">Email: mitransport@mail.com</li>
+          <li class="list-unstyled">Phone: +8 (123) 152 25 45</li>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Our Services</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Packaging</a>
+            </li>
+            <li>
+              <a href="#!">Delivery</a>
+            </li>
+            <li>
+              <a href="#!">Cargo</a>
+            </li>
+            <li>
+              <a href="#!">Transport</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Home</a>
+            </li>
+            <li>
+              <a href="#!">Service</a>
+            </li>
+            <li>
+              <a href="#!">About Us</a>
+            </li>
+            <li>
+              <a href="#!">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="https://hajar-ibrahimli.netlify.app/">Hajar Ibrahimli</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+</body>
+
+</html>
